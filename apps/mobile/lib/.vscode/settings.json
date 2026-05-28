@@ -1,0 +1,7 @@
+{
+  "dart.insertArgumentPlaceholders": false,
+  "dart.lineLength": 80,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  }
+}
