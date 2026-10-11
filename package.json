@@ -1,0 +1,14 @@
+{
+  "name": "kvrat-platform",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace apps/kvrat-landing",
+    "build": "npm run build --workspace apps/kvrat-landing",
+    "start": "npm run start --workspace apps/kvrat-landing",
+    "lint": "npm run lint --workspace apps/kvrat-landing"
+  }
+}
