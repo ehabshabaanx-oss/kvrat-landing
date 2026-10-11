@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "apps/kvrat-landing/package.json",
+      "use": "@vercel/next"
+    }
+  ]
+}
